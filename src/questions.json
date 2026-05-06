@@ -1,0 +1,134 @@
+[
+  {
+    "id": "scam_001",
+    "category": "scam_awareness",
+    "type": "message",
+    "questionText": "You won a $500 voucher. Claim now by entering your bank login.",
+    "image": null,
+    "correctAnswer": "FAKE",
+    "difficulty": 1,
+    "explanation": "Legitimate promotions do not ask for bank login details.",
+    "tags": ["scam", "phishing", "promotion"]
+  },
+  {
+    "id": "cyber_002",
+    "category": "cybersecurity",
+    "type": "email",
+    "questionText": "IT says: reset your password only through the official company portal.",
+    "image": null,
+    "correctAnswer": "REAL",
+    "difficulty": 1,
+    "explanation": "Using the official portal is the right password reset path.",
+    "tags": ["password", "security"]
+  },
+  {
+    "id": "news_003",
+    "category": "misinformation",
+    "type": "headline",
+    "questionText": "Breaking: Drinking ice water instantly blocks all computer viruses.",
+    "image": null,
+    "correctAnswer": "FAKE",
+    "difficulty": 1,
+    "explanation": "The claim mixes health advice and cybersecurity in a nonsensical way.",
+    "tags": ["misinformation", "headline"]
+  },
+  {
+    "id": "ai_004",
+    "category": "ai_literacy",
+    "type": "image_claim",
+    "questionText": "Product photo has mismatched logo text and six fingers visible.",
+    "image": null,
+    "correctAnswer": "FAKE",
+    "difficulty": 2,
+    "explanation": "Distorted hands and inconsistent text are common AI or edit signals.",
+    "tags": ["ai", "image", "manipulation"]
+  },
+  {
+    "id": "promo_005",
+    "category": "fake_promotions",
+    "type": "post",
+    "questionText": "Official store account posts a sale link matching its verified domain.",
+    "image": null,
+    "correctAnswer": "REAL",
+    "difficulty": 2,
+    "explanation": "Verified source plus matching domain is a strong legitimacy signal.",
+    "tags": ["promotion", "domain"]
+  },
+  {
+    "id": "phish_006",
+    "category": "phishing",
+    "type": "email",
+    "questionText": "Payroll update: open bonus-report.exe to confirm your salary today.",
+    "image": null,
+    "correctAnswer": "FAKE",
+    "difficulty": 2,
+    "explanation": "Unexpected executable attachments are a classic phishing risk.",
+    "tags": ["malware", "email"]
+  },
+  {
+    "id": "privacy_007",
+    "category": "compliance",
+    "type": "scenario",
+    "questionText": "A colleague asks you to send customer data through the approved encrypted tool.",
+    "image": null,
+    "correctAnswer": "REAL",
+    "difficulty": 2,
+    "explanation": "Approved encrypted channels are appropriate for sensitive data.",
+    "tags": ["privacy", "compliance"]
+  },
+  {
+    "id": "social_008",
+    "category": "social_media",
+    "type": "post",
+    "questionText": "A viral post says all official fees are waived if you pay by gift card.",
+    "image": null,
+    "correctAnswer": "FAKE",
+    "difficulty": 2,
+    "explanation": "Gift card payment demands are a major scam warning sign.",
+    "tags": ["scam", "social"]
+  },
+  {
+    "id": "claim_009",
+    "category": "misinformation",
+    "type": "claim",
+    "questionText": "A screenshot claims the CEO resigned, but no official channel or trusted outlet reports it.",
+    "image": null,
+    "correctAnswer": "FAKE",
+    "difficulty": 3,
+    "explanation": "Major claims need corroboration from official or trusted sources.",
+    "tags": ["verification", "screenshot"]
+  },
+  {
+    "id": "cyber_010",
+    "category": "cybersecurity",
+    "type": "scenario",
+    "questionText": "A login page uses HTTPS, the correct domain, and your password manager recognizes it.",
+    "image": null,
+    "correctAnswer": "REAL",
+    "difficulty": 3,
+    "explanation": "Correct domain and password manager recognition are good trust signals.",
+    "tags": ["login", "domain"]
+  },
+  {
+    "id": "phish_011",
+    "category": "phishing",
+    "type": "sms",
+    "questionText": "Delivery failed. Pay $1.99 customs fee at parcel-fast-track-login.com.",
+    "image": null,
+    "correctAnswer": "FAKE",
+    "difficulty": 3,
+    "explanation": "Urgent delivery fees through odd domains are common smishing patterns.",
+    "tags": ["sms", "domain", "delivery"]
+  },
+  {
+    "id": "ai_012",
+    "category": "ai_literacy",
+    "type": "image_claim",
+    "questionText": "News photo is credited, dated, and appears in multiple trusted reports.",
+    "image": null,
+    "correctAnswer": "REAL",
+    "difficulty": 3,
+    "explanation": "Cross-source confirmation and attribution improve confidence.",
+    "tags": ["ai", "source", "news"]
+  }
+]

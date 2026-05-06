@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#11121a" />
+    <title>Real or Fake</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="game-root"></div>
+      <div id="hud">
+        <section class="top-hud" aria-label="Game status">
+          <div class="timer-panel">
+            <span id="timer-label">30.0</span>
+            <div class="timer-track"><div id="timer-fill"></div></div>
+          </div>
+          <div class="stat-row">
+            <div class="stat"><span>Score</span><strong id="score">0</strong></div>
+            <div class="stat combo"><span>Combo</span><strong id="combo">x0</strong></div>
+            <div class="stat"><span>Lives</span><strong id="lives">3</strong></div>
+          </div>
+        </section>
+
+        <section id="menu" class="screen active">
+          <div class="brand-lockup">
+            <p class="kicker">30-Second Swipe Challenge</p>
+            <h1><span>Real</span><span>or Fake</span></h1>
+            <p class="tagline">Swipe fast. Trust your instincts.</p>
+          </div>
+          <button id="start-button" class="primary-button" type="button">START</button>
+        </section>
+
+        <section id="countdown" class="screen countdown-screen" aria-live="assertive">
+          <div id="countdown-text">3</div>
+        </section>
+
+        <section id="result" class="screen result-screen">
+          <div class="result-panel">
+            <p class="kicker">Final Verdict</p>
+            <h2 id="result-title">Round Complete</h2>
+            <div class="result-score" id="result-score">0</div>
+            <div class="result-grid">
+              <div><span>Accuracy</span><strong id="result-accuracy">0%</strong></div>
+              <div><span>Best Combo</span><strong id="result-combo">0</strong></div>
+              <div><span>Answered</span><strong id="result-answered">0</strong></div>
+            </div>
+            <button id="replay-button" class="primary-button" type="button">PLAY AGAIN</button>
+            <button id="share-button" class="ghost-button" type="button">CHALLENGE FRIENDS</button>
+          </div>
+        </section>
+
+        <div class="bottom-hints" aria-hidden="true">
+          <div class="hint fake">&larr; FAKE</div>
+          <div class="hint real">REAL &rarr;</div>
+        </div>
+        <div id="toast" aria-live="polite"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
